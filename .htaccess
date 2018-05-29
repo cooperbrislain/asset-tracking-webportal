@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Move Along"
+AuthUserFile /var/www/vhosts/spaceboycoop.com/httpdocs/leds/.secret/.htpasswd
+Require valid-user
